@@ -1,0 +1,24 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Large data files (keep the important ones in ioc_results)
+/tmp/
+*.bag
+
+# IDE
+.vscode/
+.idea/

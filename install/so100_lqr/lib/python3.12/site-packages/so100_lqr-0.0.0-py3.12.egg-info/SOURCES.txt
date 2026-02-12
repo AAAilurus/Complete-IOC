@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/so100_lqr/so100_lqr.egg-info/PKG-INFO
+../../build/so100_lqr/so100_lqr.egg-info/SOURCES.txt
+../../build/so100_lqr/so100_lqr.egg-info/dependency_links.txt
+../../build/so100_lqr/so100_lqr.egg-info/entry_points.txt
+../../build/so100_lqr/so100_lqr.egg-info/requires.txt
+../../build/so100_lqr/so100_lqr.egg-info/top_level.txt
+../../build/so100_lqr/so100_lqr.egg-info/zip-safe
+resource/so100_lqr
+so100_lqr/__init__.py
+so100_lqr/lqr_outer_loop.py
+so100_lqr/lqr_with_Q.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

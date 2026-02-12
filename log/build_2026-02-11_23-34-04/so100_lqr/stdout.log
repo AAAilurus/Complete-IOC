@@ -1,0 +1,32 @@
+running develop
+Removing /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100-lqr.egg-link (link to .)
+running egg_info
+writing ../../build/so100_lqr/so100_lqr.egg-info/PKG-INFO
+writing dependency_links to ../../build/so100_lqr/so100_lqr.egg-info/dependency_links.txt
+writing entry points to ../../build/so100_lqr/so100_lqr.egg-info/entry_points.txt
+writing requirements to ../../build/so100_lqr/so100_lqr.egg-info/requires.txt
+writing top-level names to ../../build/so100_lqr/so100_lqr.egg-info/top_level.txt
+reading manifest file '../../build/so100_lqr/so100_lqr.egg-info/SOURCES.txt'
+writing manifest file '../../build/so100_lqr/so100_lqr.egg-info/SOURCES.txt'
+running build
+running build_py
+copying so100_lqr/lqr_outer_loop.py -> /root/so100_ws/build/so100_lqr/build/lib/so100_lqr
+copying so100_lqr/lqr_with_Q.py -> /root/so100_ws/build/so100_lqr/build/lib/so100_lqr
+running install
+running install_lib
+creating /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr
+copying /root/so100_ws/build/so100_lqr/build/lib/so100_lqr/__init__.py -> /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr
+copying /root/so100_ws/build/so100_lqr/build/lib/so100_lqr/lqr_outer_loop.py -> /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr
+copying /root/so100_ws/build/so100_lqr/build/lib/so100_lqr/lqr_with_Q.py -> /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr
+byte-compiling /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr/__init__.py to __init__.cpython-312.pyc
+byte-compiling /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr/lqr_outer_loop.py to lqr_outer_loop.cpython-312.pyc
+byte-compiling /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr/lqr_with_Q.py to lqr_with_Q.cpython-312.pyc
+running install_data
+copying resource/so100_lqr -> /root/so100_ws/install/so100_lqr/share/ament_index/resource_index/packages
+copying package.xml -> /root/so100_ws/install/so100_lqr/share/so100_lqr
+running install_egg_info
+Copying ../../build/so100_lqr/so100_lqr.egg-info to /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr-0.0.0-py3.12.egg-info
+running install_scripts
+Installing lqr_outer_loop script to /root/so100_ws/install/so100_lqr/lib/so100_lqr
+Installing lqr_with_Q script to /root/so100_ws/install/so100_lqr/lib/so100_lqr
+writing list of installed files to '/root/so100_ws/build/so100_lqr/install.log'

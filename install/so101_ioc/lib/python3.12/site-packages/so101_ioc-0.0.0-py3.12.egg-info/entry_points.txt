@@ -1,0 +1,4 @@
+[console_scripts]
+ioc_exactgrad = so101_ioc.ioc_exactgrad_node:main
+robot_description_relay = so101_ioc.robot_description_relay:main
+state_logger_csv = so101_ioc.state_logger_csv:main

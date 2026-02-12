@@ -1,0 +1,6 @@
+source;share/so100_ioc_pipeline/hook/pythonpath.ps1
+source;share/so100_ioc_pipeline/hook/pythonpath.dsv
+source;share/so100_ioc_pipeline/hook/pythonpath.sh
+source;share/so100_ioc_pipeline/hook/ament_prefix_path.ps1
+source;share/so100_ioc_pipeline/hook/ament_prefix_path.dsv
+source;share/so100_ioc_pipeline/hook/ament_prefix_path.sh

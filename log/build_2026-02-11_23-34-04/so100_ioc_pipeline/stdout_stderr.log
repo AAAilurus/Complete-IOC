@@ -1,0 +1,40 @@
+running develop
+Removing /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100-ioc-pipeline.egg-link (link to .)
+running egg_info
+writing ../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info/PKG-INFO
+writing dependency_links to ../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info/dependency_links.txt
+writing entry points to ../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info/entry_points.txt
+writing requirements to ../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info/requires.txt
+writing top-level names to ../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info/top_level.txt
+reading manifest file '../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info/SOURCES.txt'
+writing manifest file '../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/so100_ws/build/so100_ioc_pipeline/build
+creating /root/so100_ws/build/so100_ioc_pipeline/build/lib
+creating /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline
+copying so100_ioc_pipeline/__init__.py -> /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline
+copying so100_ioc_pipeline/leader_log.py -> /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline
+copying so100_ioc_pipeline/follower_run.py -> /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline
+copying so100_ioc_pipeline/ioc_fitK.py -> /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline
+running install
+running install_lib
+creating /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline
+copying /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline/__init__.py -> /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline
+copying /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline/leader_log.py -> /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline
+copying /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline/follower_run.py -> /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline
+copying /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline/ioc_fitK.py -> /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline
+byte-compiling /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline/__init__.py to __init__.cpython-312.pyc
+byte-compiling /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline/leader_log.py to leader_log.cpython-312.pyc
+byte-compiling /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline/follower_run.py to follower_run.cpython-312.pyc
+byte-compiling /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline/ioc_fitK.py to ioc_fitK.cpython-312.pyc
+running install_data
+copying resource/so100_ioc_pipeline -> /root/so100_ws/install/so100_ioc_pipeline/share/ament_index/resource_index/packages
+copying package.xml -> /root/so100_ws/install/so100_ioc_pipeline/share/so100_ioc_pipeline
+running install_egg_info
+Copying ../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info to /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline-0.0.0-py3.12.egg-info
+running install_scripts
+Installing follower_run script to /root/so100_ws/install/so100_ioc_pipeline/lib/so100_ioc_pipeline
+Installing ioc_fitK script to /root/so100_ws/install/so100_ioc_pipeline/lib/so100_ioc_pipeline
+Installing leader_log script to /root/so100_ws/install/so100_ioc_pipeline/lib/so100_ioc_pipeline
+writing list of installed files to '/root/so100_ws/build/so100_ioc_pipeline/install.log'

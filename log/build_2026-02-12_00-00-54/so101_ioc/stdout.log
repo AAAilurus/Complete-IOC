@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/so101_ioc/so101_ioc.egg-info/PKG-INFO
+writing dependency_links to ../../build/so101_ioc/so101_ioc.egg-info/dependency_links.txt
+writing entry points to ../../build/so101_ioc/so101_ioc.egg-info/entry_points.txt
+writing requirements to ../../build/so101_ioc/so101_ioc.egg-info/requires.txt
+writing top-level names to ../../build/so101_ioc/so101_ioc.egg-info/top_level.txt
+reading manifest file '../../build/so101_ioc/so101_ioc.egg-info/SOURCES.txt'
+writing manifest file '../../build/so101_ioc/so101_ioc.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/root/so100_ws/install/so101_ioc/lib/python3.12/site-packages/so101_ioc-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/so101_ioc/so101_ioc.egg-info to /root/so100_ws/install/so101_ioc/lib/python3.12/site-packages/so101_ioc-0.0.0-py3.12.egg-info
+running install_scripts
+Installing ioc_exactgrad script to /root/so100_ws/install/so101_ioc/lib/so101_ioc
+Installing robot_description_relay script to /root/so100_ws/install/so101_ioc/lib/so101_ioc
+Installing state_logger_csv script to /root/so100_ws/install/so101_ioc/lib/so101_ioc
+writing list of installed files to '/root/so100_ws/build/so101_ioc/install.log'

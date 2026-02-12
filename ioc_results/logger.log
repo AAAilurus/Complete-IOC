@@ -1,0 +1,59 @@
+[INFO] [1770854303.617699203] [unified_ioc_logger]: ✓ Loaded IOC learning results
+[INFO] [1770854303.618110535] [unified_ioc_logger]: ============================================================
+[INFO] [1770854303.618349337] [unified_ioc_logger]: UNIFIED IOC DATA LOGGER
+[INFO] [1770854303.618563171] [unified_ioc_logger]: Output: /root/so100_ws/ioc_results/unified_data.csv
+[INFO] [1770854303.618783442] [unified_ioc_logger]: Rate: 50.0 Hz
+[INFO] [1770854303.619038755] [unified_ioc_logger]: Recording both leader and follower...
+[INFO] [1770854303.619258908] [unified_ioc_logger]: ============================================================
+[INFO] [1770854305.938341470] [unified_ioc_logger]: Logged 100 steps (150 records)
+[INFO] [1770854307.938271032] [unified_ioc_logger]: Logged 200 steps (350 records)
+[INFO] [1770854309.938544830] [unified_ioc_logger]: Logged 300 steps (550 records)
+[INFO] [1770854311.938519325] [unified_ioc_logger]: Logged 400 steps (750 records)
+[INFO] [1770854313.938563130] [unified_ioc_logger]: Logged 500 steps (950 records)
+[INFO] [1770854315.938303191] [unified_ioc_logger]: Logged 600 steps (1150 records)
+[INFO] [1770854317.938497932] [unified_ioc_logger]: Logged 700 steps (1350 records)
+[INFO] [1770854319.938543150] [unified_ioc_logger]: Logged 800 steps (1550 records)
+[INFO] [1770854321.938316182] [unified_ioc_logger]: Logged 900 steps (1750 records)
+[INFO] [1770854323.938347986] [unified_ioc_logger]: Logged 1000 steps (1950 records)
+[INFO] [1770854325.938351166] [unified_ioc_logger]: Logged 1100 steps (2150 records)
+[INFO] [1770854327.938411978] [unified_ioc_logger]: Logged 1200 steps (2350 records)
+[INFO] [1770854329.938489927] [unified_ioc_logger]: Logged 1300 steps (2550 records)
+[INFO] [1770854331.938578564] [unified_ioc_logger]: Logged 1400 steps (2750 records)
+[INFO] [1770854333.938465890] [unified_ioc_logger]: Logged 1500 steps (2950 records)
+[INFO] [1770854335.938276967] [unified_ioc_logger]: Logged 1600 steps (3150 records)
+[INFO] [1770854337.938522488] [unified_ioc_logger]: Logged 1700 steps (3350 records)
+[INFO] [1770854339.938586624] [unified_ioc_logger]: Logged 1800 steps (3550 records)
+[INFO] [1770854341.938383254] [unified_ioc_logger]: Logged 1900 steps (3750 records)
+[INFO] [1770854343.938336667] [unified_ioc_logger]: Logged 2000 steps (3950 records)
+[INFO] [1770854345.938627473] [unified_ioc_logger]: Logged 2100 steps (4150 records)
+[INFO] [1770854347.938586301] [unified_ioc_logger]: Logged 2200 steps (4350 records)
+[INFO] [1770854349.938256378] [unified_ioc_logger]: Logged 2300 steps (4550 records)
+[INFO] [1770854351.938553580] [unified_ioc_logger]: Logged 2400 steps (4750 records)
+[INFO] [1770854353.938532304] [unified_ioc_logger]: Logged 2500 steps (4950 records)
+[INFO] [1770854355.938321071] [unified_ioc_logger]: Logged 2600 steps (5150 records)
+[INFO] [1770854357.938579695] [unified_ioc_logger]: Logged 2700 steps (5350 records)
+[INFO] [1770854359.938356557] [unified_ioc_logger]: Logged 2800 steps (5550 records)
+[INFO] [1770854361.938357589] [unified_ioc_logger]: Logged 2900 steps (5750 records)
+[INFO] [1770854363.938505416] [unified_ioc_logger]: Logged 3000 steps (5950 records)
+[INFO] [1770854365.938289913] [unified_ioc_logger]: Logged 3100 steps (6150 records)
+[INFO] [1770854367.938486335] [unified_ioc_logger]: Logged 3200 steps (6350 records)
+[INFO] [1770854369.938468955] [unified_ioc_logger]: Logged 3300 steps (6550 records)
+[INFO] [1770854371.938448071] [unified_ioc_logger]: Logged 3400 steps (6750 records)
+Traceback (most recent call last):
+  File "/root/so100_ws/unified_ioc_logger.py", line 166, in <module>
+    main()
+  File "/root/so100_ws/unified_ioc_logger.py", line 157, in main
+    rclpy.spin(node)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+    executor.spin_once()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 845, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 829, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 799, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 707, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException

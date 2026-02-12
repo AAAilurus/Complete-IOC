@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing so100_lqr.egg-info/PKG-INFO
+writing dependency_links to so100_lqr.egg-info/dependency_links.txt
+writing entry points to so100_lqr.egg-info/entry_points.txt
+writing requirements to so100_lqr.egg-info/requires.txt
+writing top-level names to so100_lqr.egg-info/top_level.txt
+reading manifest file 'so100_lqr.egg-info/SOURCES.txt'
+writing manifest file 'so100_lqr.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100-lqr.egg-link (link to .)
+Installing lqr_outer_loop script to /root/so100_ws/install/so100_lqr/lib/so100_lqr
+
+Installed /root/so100_ws/build/so100_lqr
+running symlink_data
+symbolically linking /root/so100_ws/build/so100_lqr/resource/so100_lqr -> /root/so100_ws/install/so100_lqr/share/ament_index/resource_index/packages
+symbolically linking /root/so100_ws/build/so100_lqr/package.xml -> /root/so100_ws/install/so100_lqr/share/so100_lqr

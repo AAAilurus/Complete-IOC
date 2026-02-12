@@ -1,0 +1,19 @@
+[0.650s] Invoking command in '/root/so100_ws/build/so100_ioc_pipeline': PYTHONPATH=/root/so100_ws/build/so100_ioc_pipeline/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/so100_ws/build/so100_ioc_pipeline/build --no-deps symlink_data
+[0.915s] running develop
+[1.058s] running egg_info
+[1.072s] writing so100_ioc_pipeline.egg-info/PKG-INFO
+[1.072s] writing dependency_links to so100_ioc_pipeline.egg-info/dependency_links.txt
+[1.072s] writing entry points to so100_ioc_pipeline.egg-info/entry_points.txt
+[1.072s] writing requirements to so100_ioc_pipeline.egg-info/requires.txt
+[1.072s] writing top-level names to so100_ioc_pipeline.egg-info/top_level.txt
+[1.103s] reading manifest file 'so100_ioc_pipeline.egg-info/SOURCES.txt'
+[1.103s] writing manifest file 'so100_ioc_pipeline.egg-info/SOURCES.txt'
+[1.118s] running build_ext
+[1.118s] Creating /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100-ioc-pipeline.egg-link (link to .)
+[1.118s] Installing follower_run script to /root/so100_ws/install/so100_ioc_pipeline/lib/so100_ioc_pipeline
+[1.119s] Installing ioc_fitK script to /root/so100_ws/install/so100_ioc_pipeline/lib/so100_ioc_pipeline
+[1.119s] Installing leader_log script to /root/so100_ws/install/so100_ioc_pipeline/lib/so100_ioc_pipeline
+[1.119s] 
+[1.119s] Installed /root/so100_ws/build/so100_ioc_pipeline
+[1.119s] running symlink_data
+[1.145s] Invoked command in '/root/so100_ws/build/so100_ioc_pipeline' returned '0': PYTHONPATH=/root/so100_ws/build/so100_ioc_pipeline/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/so100_ws/build/so100_ioc_pipeline/build --no-deps symlink_data

@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing so100_ioc_pipeline.egg-info/PKG-INFO
+writing dependency_links to so100_ioc_pipeline.egg-info/dependency_links.txt
+writing entry points to so100_ioc_pipeline.egg-info/entry_points.txt
+writing requirements to so100_ioc_pipeline.egg-info/requires.txt
+writing top-level names to so100_ioc_pipeline.egg-info/top_level.txt
+reading manifest file 'so100_ioc_pipeline.egg-info/SOURCES.txt'
+writing manifest file 'so100_ioc_pipeline.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100-ioc-pipeline.egg-link (link to .)
+Installing follower_run script to /root/so100_ws/install/so100_ioc_pipeline/lib/so100_ioc_pipeline
+Installing ioc_fitK script to /root/so100_ws/install/so100_ioc_pipeline/lib/so100_ioc_pipeline
+Installing leader_log script to /root/so100_ws/install/so100_ioc_pipeline/lib/so100_ioc_pipeline
+
+Installed /root/so100_ws/build/so100_ioc_pipeline
+running symlink_data

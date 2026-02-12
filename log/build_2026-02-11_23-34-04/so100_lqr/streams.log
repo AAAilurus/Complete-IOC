@@ -1,0 +1,36 @@
+[1.550s] Invoking command in '/root/so100_ws/build/so100_lqr': PYTHONPATH=/root/so100_ws/build/so100_lqr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/so100_ws/install/so100_lqr/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/so100_ws/build/so100_lqr/build
+[1.839s] running develop
+[2.027s] Removing /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100-lqr.egg-link (link to .)
+[2.056s] Invoked command in '/root/so100_ws/build/so100_lqr' returned '0': PYTHONPATH=/root/so100_ws/build/so100_lqr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/so100_ws/install/so100_lqr/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/so100_ws/build/so100_lqr/build
+[2.057s] Invoking command in '/root/so100_ws/src/so100_lqr': PYTHONPATH=/root/so100_ws/build/so100_lqr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/so100_ws/install/so100_lqr/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/so100_lqr build --build-base /root/so100_ws/build/so100_lqr/build install --record /root/so100_ws/build/so100_lqr/install.log --single-version-externally-managed install_data --force
+[2.306s] running egg_info
+[2.320s] writing ../../build/so100_lqr/so100_lqr.egg-info/PKG-INFO
+[2.321s] writing dependency_links to ../../build/so100_lqr/so100_lqr.egg-info/dependency_links.txt
+[2.321s] writing entry points to ../../build/so100_lqr/so100_lqr.egg-info/entry_points.txt
+[2.321s] writing requirements to ../../build/so100_lqr/so100_lqr.egg-info/requires.txt
+[2.321s] writing top-level names to ../../build/so100_lqr/so100_lqr.egg-info/top_level.txt
+[2.350s] reading manifest file '../../build/so100_lqr/so100_lqr.egg-info/SOURCES.txt'
+[2.351s] writing manifest file '../../build/so100_lqr/so100_lqr.egg-info/SOURCES.txt'
+[2.351s] running build
+[2.351s] running build_py
+[2.352s] copying so100_lqr/lqr_outer_loop.py -> /root/so100_ws/build/so100_lqr/build/lib/so100_lqr
+[2.356s] copying so100_lqr/lqr_with_Q.py -> /root/so100_ws/build/so100_lqr/build/lib/so100_lqr
+[2.356s] running install
+[2.363s] running install_lib
+[2.381s] creating /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr
+[2.381s] copying /root/so100_ws/build/so100_lqr/build/lib/so100_lqr/__init__.py -> /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr
+[2.382s] copying /root/so100_ws/build/so100_lqr/build/lib/so100_lqr/lqr_outer_loop.py -> /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr
+[2.382s] copying /root/so100_ws/build/so100_lqr/build/lib/so100_lqr/lqr_with_Q.py -> /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr
+[2.382s] byte-compiling /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr/__init__.py to __init__.cpython-312.pyc
+[2.382s] byte-compiling /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr/lqr_outer_loop.py to lqr_outer_loop.cpython-312.pyc
+[2.384s] byte-compiling /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr/lqr_with_Q.py to lqr_with_Q.cpython-312.pyc
+[2.385s] running install_data
+[2.386s] copying resource/so100_lqr -> /root/so100_ws/install/so100_lqr/share/ament_index/resource_index/packages
+[2.386s] copying package.xml -> /root/so100_ws/install/so100_lqr/share/so100_lqr
+[2.386s] running install_egg_info
+[2.404s] Copying ../../build/so100_lqr/so100_lqr.egg-info to /root/so100_ws/install/so100_lqr/lib/python3.12/site-packages/so100_lqr-0.0.0-py3.12.egg-info
+[2.406s] running install_scripts
+[2.520s] Installing lqr_outer_loop script to /root/so100_ws/install/so100_lqr/lib/so100_lqr
+[2.520s] Installing lqr_with_Q script to /root/so100_ws/install/so100_lqr/lib/so100_lqr
+[2.520s] writing list of installed files to '/root/so100_ws/build/so100_lqr/install.log'
+[2.547s] Invoked command in '/root/so100_ws/src/so100_lqr' returned '0': PYTHONPATH=/root/so100_ws/build/so100_lqr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/so100_ws/install/so100_lqr/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/so100_lqr build --build-base /root/so100_ws/build/so100_lqr/build install --record /root/so100_ws/build/so100_lqr/install.log --single-version-externally-managed install_data --force

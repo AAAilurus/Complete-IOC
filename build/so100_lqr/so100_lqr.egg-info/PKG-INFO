@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: so100-lqr
+Version: 0.0.0
+Summary: LQR outer-loop commander for SO-100 2DOF
+Maintainer: root
+Maintainer-email: root@todo.todo
+License: MIT

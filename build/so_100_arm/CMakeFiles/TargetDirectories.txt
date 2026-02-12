@@ -1,0 +1,9 @@
+/root/so100_ws/build/so_100_arm/CMakeFiles/uninstall.dir
+/root/so100_ws/build/so_100_arm/CMakeFiles/so_100_arm_uninstall.dir
+/root/so100_ws/build/so_100_arm/CMakeFiles/test.dir
+/root/so100_ws/build/so_100_arm/CMakeFiles/edit_cache.dir
+/root/so100_ws/build/so_100_arm/CMakeFiles/rebuild_cache.dir
+/root/so100_ws/build/so_100_arm/CMakeFiles/list_install_components.dir
+/root/so100_ws/build/so_100_arm/CMakeFiles/install.dir
+/root/so100_ws/build/so_100_arm/CMakeFiles/install/local.dir
+/root/so100_ws/build/so_100_arm/CMakeFiles/install/strip.dir

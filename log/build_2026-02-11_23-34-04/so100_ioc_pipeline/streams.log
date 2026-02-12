@@ -1,0 +1,44 @@
+[1.623s] Invoking command in '/root/so100_ws/build/so100_ioc_pipeline': PYTHONPATH=/root/so100_ws/build/so100_ioc_pipeline/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/so100_ws/build/so100_ioc_pipeline/build
+[1.911s] running develop
+[2.095s] Removing /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100-ioc-pipeline.egg-link (link to .)
+[2.158s] Invoked command in '/root/so100_ws/build/so100_ioc_pipeline' returned '0': PYTHONPATH=/root/so100_ws/build/so100_ioc_pipeline/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/so100_ws/build/so100_ioc_pipeline/build
+[2.159s] Invoking command in '/root/so100_ws/src/so100_ioc_pipeline': PYTHONPATH=/root/so100_ws/build/so100_ioc_pipeline/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/so100_ioc_pipeline build --build-base /root/so100_ws/build/so100_ioc_pipeline/build install --record /root/so100_ws/build/so100_ioc_pipeline/install.log --single-version-externally-managed install_data --force
+[2.389s] running egg_info
+[2.406s] writing ../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info/PKG-INFO
+[2.409s] writing dependency_links to ../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info/dependency_links.txt
+[2.410s] writing entry points to ../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info/entry_points.txt
+[2.411s] writing requirements to ../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info/requires.txt
+[2.413s] writing top-level names to ../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info/top_level.txt
+[2.445s] reading manifest file '../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info/SOURCES.txt'
+[2.447s] writing manifest file '../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info/SOURCES.txt'
+[2.447s] running build
+[2.447s] running build_py
+[2.448s] creating /root/so100_ws/build/so100_ioc_pipeline/build
+[2.448s] creating /root/so100_ws/build/so100_ioc_pipeline/build/lib
+[2.448s] creating /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline
+[2.448s] copying so100_ioc_pipeline/__init__.py -> /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline
+[2.448s] copying so100_ioc_pipeline/leader_log.py -> /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline
+[2.449s] copying so100_ioc_pipeline/follower_run.py -> /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline
+[2.450s] copying so100_ioc_pipeline/ioc_fitK.py -> /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline
+[2.450s] running install
+[2.457s] running install_lib
+[2.472s] creating /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline
+[2.472s] copying /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline/__init__.py -> /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline
+[2.472s] copying /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline/leader_log.py -> /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline
+[2.472s] copying /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline/follower_run.py -> /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline
+[2.472s] copying /root/so100_ws/build/so100_ioc_pipeline/build/lib/so100_ioc_pipeline/ioc_fitK.py -> /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline
+[2.473s] byte-compiling /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline/__init__.py to __init__.cpython-312.pyc
+[2.473s] byte-compiling /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline/leader_log.py to leader_log.cpython-312.pyc
+[2.474s] byte-compiling /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline/follower_run.py to follower_run.cpython-312.pyc
+[2.475s] byte-compiling /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline/ioc_fitK.py to ioc_fitK.cpython-312.pyc
+[2.476s] running install_data
+[2.476s] copying resource/so100_ioc_pipeline -> /root/so100_ws/install/so100_ioc_pipeline/share/ament_index/resource_index/packages
+[2.479s] copying package.xml -> /root/so100_ws/install/so100_ioc_pipeline/share/so100_ioc_pipeline
+[2.479s] running install_egg_info
+[2.497s] Copying ../../build/so100_ioc_pipeline/so100_ioc_pipeline.egg-info to /root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages/so100_ioc_pipeline-0.0.0-py3.12.egg-info
+[2.499s] running install_scripts
+[2.607s] Installing follower_run script to /root/so100_ws/install/so100_ioc_pipeline/lib/so100_ioc_pipeline
+[2.610s] Installing ioc_fitK script to /root/so100_ws/install/so100_ioc_pipeline/lib/so100_ioc_pipeline
+[2.611s] Installing leader_log script to /root/so100_ws/install/so100_ioc_pipeline/lib/so100_ioc_pipeline
+[2.612s] writing list of installed files to '/root/so100_ws/build/so100_ioc_pipeline/install.log'
+[2.638s] Invoked command in '/root/so100_ws/src/so100_ioc_pipeline' returned '0': PYTHONPATH=/root/so100_ws/build/so100_ioc_pipeline/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/so100_ws/install/so100_ioc_pipeline/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/so100_ioc_pipeline build --build-base /root/so100_ws/build/so100_ioc_pipeline/build install --record /root/so100_ws/build/so100_ioc_pipeline/install.log --single-version-externally-managed install_data --force

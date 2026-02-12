@@ -1,0 +1,19 @@
+[1.567s] Invoking command in '/root/so100_ws/src/so100_2dof_bringup': PYTHONPATH=/root/so100_ws/build/so100_2dof_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/so100_ws/install/so100_2dof_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/so100_2dof_bringup build --build-base /root/so100_ws/build/so100_2dof_bringup/build install --record /root/so100_ws/build/so100_2dof_bringup/install.log --single-version-externally-managed install_data
+[1.836s] running egg_info
+[1.866s] writing ../../build/so100_2dof_bringup/so100_2dof_bringup.egg-info/PKG-INFO
+[1.868s] writing dependency_links to ../../build/so100_2dof_bringup/so100_2dof_bringup.egg-info/dependency_links.txt
+[1.869s] writing requirements to ../../build/so100_2dof_bringup/so100_2dof_bringup.egg-info/requires.txt
+[1.871s] writing top-level names to ../../build/so100_2dof_bringup/so100_2dof_bringup.egg-info/top_level.txt
+[1.904s] reading manifest file '../../build/so100_2dof_bringup/so100_2dof_bringup.egg-info/SOURCES.txt'
+[1.905s] writing manifest file '../../build/so100_2dof_bringup/so100_2dof_bringup.egg-info/SOURCES.txt'
+[1.907s] running build
+[1.907s] running build_py
+[1.910s] running install
+[1.916s] running install_lib
+[1.938s] running install_data
+[1.938s] running install_egg_info
+[1.956s] removing '/root/so100_ws/install/so100_2dof_bringup/lib/python3.12/site-packages/so100_2dof_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[1.962s] Copying ../../build/so100_2dof_bringup/so100_2dof_bringup.egg-info to /root/so100_ws/install/so100_2dof_bringup/lib/python3.12/site-packages/so100_2dof_bringup-0.0.0-py3.12.egg-info
+[1.963s] running install_scripts
+[2.131s] writing list of installed files to '/root/so100_ws/build/so100_2dof_bringup/install.log'
+[2.164s] Invoked command in '/root/so100_ws/src/so100_2dof_bringup' returned '0': PYTHONPATH=/root/so100_ws/build/so100_2dof_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/so100_ws/install/so100_2dof_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/so100_2dof_bringup build --build-base /root/so100_ws/build/so100_2dof_bringup/build install --record /root/so100_ws/build/so100_2dof_bringup/install.log --single-version-externally-managed install_data

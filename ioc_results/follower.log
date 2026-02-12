@@ -1,0 +1,28 @@
+[INFO] [1770854342.147419914] [lqr_with_Q]: [LQR with Q] joints=['Shoulder_Pitch', 'Elbow']
+[INFO] [1770854342.148550181] [lqr_with_Q]: [LQR with Q] sub=/so101/joint_states
+[INFO] [1770854342.148956687] [lqr_with_Q]: [LQR with Q] pub=/so101/arm_position_controller/commands
+[INFO] [1770854342.149323679] [lqr_with_Q]: [LQR with Q] rate=50.0Hz dt=0.0200s
+[INFO] [1770854342.149694910] [lqr_with_Q]: [LQR with Q] Q_diag=[99.99891938784879, 99.99891938784879, 9.999996381065195, 9.999996381065195]
+[INFO] [1770854342.150052185] [lqr_with_Q]: [LQR with Q] R_diag=[0.5, 0.5]
+[INFO] [1770854342.150785012] [lqr_with_Q]: [LQR with Q] Computed K:
+[[13.19301691  0.          6.61753618  0.        ]
+ [ 0.         13.19301691  0.          6.61753618]]
+Traceback (most recent call last):
+  File "/root/so100_ws/install/so100_lqr/lib/so100_lqr/lqr_with_Q", line 33, in <module>
+    sys.exit(load_entry_point('so100-lqr==0.0.0', 'console_scripts', 'lqr_with_Q')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/so100_ws/build/so100_lqr/so100_lqr/lqr_with_Q.py", line 157, in main
+    rclpy.spin(node)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 247, in spin
+    executor.spin_once()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 845, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 829, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 799, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 707, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException

@@ -1,0 +1,4 @@
+[console_scripts]
+follower_run = so100_ioc_pipeline.follower_run:main
+ioc_fitK = so100_ioc_pipeline.ioc_fitK:main
+leader_log = so100_ioc_pipeline.leader_log:main

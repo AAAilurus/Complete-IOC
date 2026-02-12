@@ -1,0 +1,3 @@
+[console_scripts]
+lqr_outer_loop = so100_lqr.lqr_outer_loop:main
+lqr_with_Q = so100_lqr.lqr_with_Q:main

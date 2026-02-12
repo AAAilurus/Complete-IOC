@@ -1,0 +1,23 @@
+[1.404s] Invoking command in '/root/so100_ws/src/so101_ioc': PYTHONPATH=/root/so100_ws/build/so101_ioc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/so100_ws/install/so101_ioc/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/so101_ioc build --build-base /root/so100_ws/build/so101_ioc/build install --record /root/so100_ws/build/so101_ioc/install.log --single-version-externally-managed install_data
+[1.671s] running egg_info
+[1.687s] writing ../../build/so101_ioc/so101_ioc.egg-info/PKG-INFO
+[1.687s] writing dependency_links to ../../build/so101_ioc/so101_ioc.egg-info/dependency_links.txt
+[1.687s] writing entry points to ../../build/so101_ioc/so101_ioc.egg-info/entry_points.txt
+[1.687s] writing requirements to ../../build/so101_ioc/so101_ioc.egg-info/requires.txt
+[1.687s] writing top-level names to ../../build/so101_ioc/so101_ioc.egg-info/top_level.txt
+[1.720s] reading manifest file '../../build/so101_ioc/so101_ioc.egg-info/SOURCES.txt'
+[1.722s] writing manifest file '../../build/so101_ioc/so101_ioc.egg-info/SOURCES.txt'
+[1.722s] running build
+[1.722s] running build_py
+[1.722s] running install
+[1.729s] running install_lib
+[1.745s] running install_data
+[1.745s] running install_egg_info
+[1.768s] removing '/root/so100_ws/install/so101_ioc/lib/python3.12/site-packages/so101_ioc-0.0.0-py3.12.egg-info' (and everything under it)
+[1.769s] Copying ../../build/so101_ioc/so101_ioc.egg-info to /root/so100_ws/install/so101_ioc/lib/python3.12/site-packages/so101_ioc-0.0.0-py3.12.egg-info
+[1.771s] running install_scripts
+[1.891s] Installing ioc_exactgrad script to /root/so100_ws/install/so101_ioc/lib/so101_ioc
+[1.891s] Installing robot_description_relay script to /root/so100_ws/install/so101_ioc/lib/so101_ioc
+[1.892s] Installing state_logger_csv script to /root/so100_ws/install/so101_ioc/lib/so101_ioc
+[1.892s] writing list of installed files to '/root/so100_ws/build/so101_ioc/install.log'
+[1.921s] Invoked command in '/root/so100_ws/src/so101_ioc' returned '0': PYTHONPATH=/root/so100_ws/build/so101_ioc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/so100_ws/install/so101_ioc/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/so101_ioc build --build-base /root/so100_ws/build/so101_ioc/build install --record /root/so100_ws/build/so101_ioc/install.log --single-version-externally-managed install_data
